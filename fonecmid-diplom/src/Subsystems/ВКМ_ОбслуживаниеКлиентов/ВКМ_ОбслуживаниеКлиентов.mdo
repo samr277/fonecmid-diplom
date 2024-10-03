@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53cce4ae-f0e6-48f8-9987-e3a90795f9ab">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53cce4ae-f0e6-48f8-9987-e3a90795f9ab">
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ обслуживание клиентов</value>
+    <value>Обслуживание клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбслужКлиентов</picture>
+  </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмЧат</content>
   <content>Constant.ВКМ_ИдентификаторТелеграмГруппы</content>
@@ -15,4 +18,9 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовПоОбслуживаниюКлиентов</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_РаботаСТелеграмБотом</content>
+  <content>Role.ВКМ_ДобавлениеИИзменениеДокументовПоОбслуживаниюКлиентов</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
 </mdclass:Subsystem>
