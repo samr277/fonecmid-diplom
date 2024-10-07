@@ -20,4 +20,12 @@
       </visible>
     </visibilityFragments>
   </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>Constant.ВКМ_ИдентификаторТелеграмГруппы.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

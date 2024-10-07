@@ -25,4 +25,9 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
 </mdclass:Subsystem>
